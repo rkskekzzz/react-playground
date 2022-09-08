@@ -4,7 +4,9 @@ type Props = {
   bgColor: string;
   fgColor: string;
 };
+
 const container = (props: Props) => css`
+  label: container;
   background: ${props.bgColor};
   padding: 20px;
   & * {

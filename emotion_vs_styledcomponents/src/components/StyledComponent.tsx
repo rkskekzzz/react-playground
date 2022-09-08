@@ -12,8 +12,8 @@ const App = () => {
   return (
     <Container bgColor={bgColor} fgColor={fgColor}>
       <Title>Styled Component</Title>
-      <p>MINIFIED : 43.3kB</p>
-      <p>MINIFIED + GZIPPED : 15.8kB</p>
+      <p>MINIFIED : 33.5kB</p>
+      <p>MINIFIED + GZIPPED : 12.7kB</p>
       <BgButton onClick={handleBgButtonTabbed}>Change Background Color</BgButton>
       <FgButton onClick={handleFgButtonTabbed}>Change Foreground Color</FgButton>
     </Container>

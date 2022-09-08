@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import { jsx, css } from '@emotion/react';
+// import { jsx, css } from '@emotion/react';
 import React, { useState } from 'react';
 import { randomColorGenerator } from '../utils/randomColor';
 import { container, title, bgButton, fgButton } from '../css/EmotionComponent.styled';
@@ -14,8 +14,8 @@ const App = () => {
   return (
     <div css={container({ bgColor, fgColor })}>
       <h1 css={title}>Emotion Component</h1>
-      <p>MINIFIED : 43.3kB</p>
-      <p>MINIFIED + GZIPPED : 15.8kB</p>
+      <p>MINIFIED : 21.2kB</p>
+      <p>MINIFIED + GZIPPED : 7.9kB</p>
       <button css={bgButton} onClick={handleBgButtonTabbed}>
         Change Background Color
       </button>
